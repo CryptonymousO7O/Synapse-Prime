@@ -12,7 +12,7 @@ app = FastAPI(
 )
 
 # Configureer CORS: lees `FRONTEND_ORIGIN` uit .env of gebruik localhost dev default
-frontend_origin = getenv("FRONTEND_ORIGIN", "http://127.0.0.1:5173")
+frontend_origin = getenv("FRONTEND_ORIGIN", "http://127.0.0.1:8080")
 
 app.add_middleware(
     CORSMiddleware,

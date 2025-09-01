@@ -4,6 +4,10 @@ venv/
 frontend/venv/
 ProjectSynapse/backend/venv/
 
+# Environment files
+.env
+**/.env
+
 # Python cache
 __pycache__/
 .pytest_cache/
